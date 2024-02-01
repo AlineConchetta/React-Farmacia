@@ -35,17 +35,15 @@ function Navbar() {
         <nav className={`${open ? "block" : "hidden"} w-full lg:flex lg:items-center lg:w-auto`}>
           <ul className="flex flex-col items-start lg:flex-row lg:justify-between text-white font-bold">
             <li>
-              <a href='/sobre' className="lg:px-5 p-2 block rounded-xl hover:bg-blue-900 bg-blue-500 m-1">Produtos</a>
+              <a href='/home' className="lg:px-5 p-2 block rounded-xl hover:bg-green-900 bg-green-500 m-1">Produtos</a>
             </li>
             <li>
-              <a href='/contato' className="lg:px-5 p-2 block rounded-xl hover:bg-blue-900 bg-blue-500 m-1">Categorias</a>
+              <a href='/categorias' className="lg:px-5 p-2 block rounded-xl hover:bg-green-900 bg-green-500 m-1">Categorias</a>
             </li>
             <li>
-              <a href='/login' className="lg:px-5 p-2 block rounded-xl hover:bg-blue-900 bg-blue-500 m-1">Cadastrar Categoria</a>
+              <a href='/cadastrarcategoria' className="lg:px-5 p-2 block rounded-xl hover:bg-green-900 bg-green-500 m-1">Cadastrar Categoria</a>
             </li>
-            <li>
-              <a href='#' className="lg:px-8 p-2  block rounded-xl hover:bg-blue-900 bg-blue-500 m-1">Cadastre-se</a>
-            </li>
+            
 
           </ul>
 
