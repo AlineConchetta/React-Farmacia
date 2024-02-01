@@ -78,13 +78,13 @@ function FormCategoria() {
                         type="text"
                         placeholder="Descreva aqui sua categoria"
                         name='nome'
-                        className="border-2 border-blue-400 rounded p-2"
+                        className="border-2 border-green-400 rounded p-2"
                         value={categoria.nome}
                         onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
                     />
                 </div>
                 <button
-                    className="rounded font-bold bg-blue-400 hover:bg-blue-600
+                    className="rounded font-bold bg-green-400 hover:bg-green-600
                      w-1/2 py-2 mx-auto flex justify-center"
                     type="submit">
 

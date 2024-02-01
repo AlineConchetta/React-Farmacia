@@ -7,9 +7,9 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className='bg-blue-300 py-4'>
+    <header className='bg-green-300 py-4'>
       <div className='flex items-center justify-between xl:max-w-9xl xl:mx-auto px-[4%] flex-wrap w-full'>
-        <a href='/home' className="text-2xl font-bold">Farmácia</a>
+        <a href='/home' className="text-2xl font-bold">FarmaVida</a>
       {
         open ?  
           

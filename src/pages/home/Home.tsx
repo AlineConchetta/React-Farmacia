@@ -11,7 +11,7 @@ const CardProduto: React.FC<CardProdutoProps> = ({ imgUrl, nomeProduto, descrica
                 <img src={imgUrl} alt={nomeProduto} className="w-full h-32 object-cover mb-4" />
                 <h2 className="text-lg font-semibold mb-2">{nomeProduto}</h2>
                 <p className="text-gray-700">{descricao}</p>
-                <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-full">Comprar</button>
+                <button className="mt-4 bg-green-500 text-white py-2 px-4 rounded-full">Comprar</button>
             </div>
         </div>
     );
@@ -21,7 +21,7 @@ function Home() {
     return (
         <>
             <div>
-                <h2 className="container text-5xl font-bold mb-4 text-start p-[50px]">Lista de Produtos: </h2>
+                <h2 className="container text-5xl font-bold mb-4 text-start p-[50px]">Produtos da FarmaVida: </h2>
             </div>
             <div className="flex justify-center w-full my-4">
                 <div className=" flex flex-col">

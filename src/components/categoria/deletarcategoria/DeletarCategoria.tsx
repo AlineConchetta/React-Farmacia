@@ -54,16 +54,16 @@ function DeletarCategoria() {
         <div className='container w-1/3 mx-auto'>
             <h1 className='text-4xl text-center my-4'>Deletar categoria</h1>
             <p className='text-center font-semibold mb-4'>
-                Você tem certeza de que deseja apagar a categoria a seguir?</p>
+                Você tem certeza de que deseja apagar?</p>
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
                 <header
-                    className='py-2 px-6 bg-blue-500 text-white font-bold text-2xl'>
+                    className='py-2 px-6 bg-green-500 text-white font-bold text-2xl'>
                     Categoria
                 </header>
                 <p className='p-8 text-3xl bg-slate-00 h-full'>{categoria.nome}</p>
                 <div className="flex">
                     <button
-                        className='font-bold bg-blue-400 hover:bg-blue-700 w-full py-2'
+                        className='font-bold bg-green-400 hover:bg-green-700 w-full py-2'
                         onClick={retornar}>
                         Não
                     </button>
